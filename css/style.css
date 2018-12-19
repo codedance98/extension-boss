@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 20px;
+}
+ .body{
+    width:300px;
+    background:#fff;
+    font-weight:700;
+    font-size: 20px;
+}
+.header{
+    overflow: hidden;
+    height:50px;
+    width:100%;
+    border-bottom:1px solid #ccc;
+}
+.header{
+    line-height: 50px;
+    padding: 0 15px;
+}
+.header div{
+    width:45%;
+    height:50px;
+    float:left;
+}
+.header div.title{
+    font-weight:normal;
+    font-size: 14px;
+}
+.header div.title .logo{
+    width:35px;
+    height:35px;
+    vertical-align:middle;
+    margin-right:7px;
+    position:relative;
+    top:-3px;
+}
+.header div.date{
+    font-weight:normal;
+    font-size: 14px;
+    color:#9DA6A8;
+    text-align: right;
+}
+.header div:first-child{
+    line-height: 50px;
+    color:#800080;
+}
+.content{
+    width:100%;
+    font-size: 16px;
+    padding: 0 15px;
+    border-bottom:1px solid #ccc;
+}
+.content .title{
+    margin-top:10px;
+}
+.content p.more{
+    color:#9DA6A8;
+    font-size: 14px;
+    font-style:italic;
+    padding:20px 0;
+    font-weight:400;
+}
+.content .checkbox{
+    overflow: hidden;
+    font-size:14px;
+    margin-top:17px;
+}
+.content .checkbox p{
+    width: 45%;
+    float:left;
+    color:#696969;
+    font-weight:normal;
+}
+.content .checkbox p .input-checkbox{
+    cursor: pointer;
+}
+.content .checkbox p label.m-b{
+    margin-bottom:20px;
+    display:block;
+}
+.content .checkbox p label{
+    -moz-user-select:none;
+    -webkit-user-select: none;       
+    -ms-user-select: none;  
+    cursor: pointer;
+}
+.content .checkbox p label input{
+    background-color:#800080;
+    margin-right:5px;  
+}
+.footer{
+    display:none;
+    color:#696969;
+    padding: 0 15px;
+    font-size:14px;
+    font-weight:400;
+}
+.footer span.login{
+    color:#800080;
+    cursor: pointer;
+    line-height: 50px;
+}
+.footer span.login:hover{
+    text-decoration:underline;
+}
+/* checkbox background-color special handling */
+label{
+    position: relative;
+}
+input.input-checkbox:checked + .show-box {
+    background: #800080;
+}
+.show-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    background: white;
+}
+.show-box::before { 
+    content: ''; 
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 3.5px; 
+    height: 8px; 
+    border: solid white; 
+    border-width: 0 2px 2px 0; 
+    transform: rotate(45deg);
+  }
+       

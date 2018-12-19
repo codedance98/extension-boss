@@ -1,0 +1,57 @@
+.zhuru{
+    width:60px;
+    height:35px;
+    line-height: 35px;
+    position:fixed;
+    top:100px;
+    right:0px;
+    z-index:10;
+    
+}
+.zc-node{
+    /* width:300px; */
+    height:25px;
+    border:1px solid #9E5D9F;
+    color:#9E5D9F !important;
+    background-color:#F3E6F3;
+    border-radius:6px;
+    overflow:hidden;
+    position:absolute;
+    top:67px;
+    left:280px;
+    z-index:5;
+    font-size:12px;
+    cursor: default;
+}
+.zc-node .title{
+    color:#9E5D9F !important;
+    font-size: 12px !important;
+    float:left;
+    /* width:20%; */
+    padding-right:0!important;
+    /* line-height: 25px !important; */
+    text-align: center;
+    padding-left:10px;
+    
+}
+.zc-node ul{
+    float:left;
+    /* width:80%; */
+    overflow:hidden;
+    background-color:#F3E6F3;
+}
+.zc-node ul li{
+    float:left;
+    /* width:25%; */
+    height:100%;
+    /* line-height: 25px !important; */
+    text-align: center;
+    margin:0;
+    cursor: pointer;
+    padding:0 15px;
+    /* padding:0 20px; */
+    background-color:#F3E6F3;
+}
+.zc-node ul li:hover{
+    text-decoration:underline;
+}
