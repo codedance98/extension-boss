@@ -1,1 +1,1 @@
-# chrome插件【简历搜索助手】
+# google-search-assistant
