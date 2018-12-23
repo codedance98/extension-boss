@@ -1,8 +1,8 @@
 {
-  "name": "简历搜索助手",
+  "name": "name",
   "manifest_version":2,
-  "version": "1.0.4",
-  "description": "嫌BOSS直聘中人才回复慢？“简历搜索助手”帮你一键搜索候选人简历，直接下载联系，不必在线等回复，提高招聘效率。",
+  "version": "1.0.0",
+  "description": "description",
     "background":
      {
         "scripts": ["js/background.js"] 
